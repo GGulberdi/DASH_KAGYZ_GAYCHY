@@ -20,7 +20,7 @@ const reset =document.getElementById('reset')
 
 function randomNumber(){
     
-    let choices=['shoes', 'paper','scissors']
+    let choices=['rock', 'paper','scissors']
     console.log(choices)
     const random = Math.floor(Math.random()*3);
     return choices[random]
